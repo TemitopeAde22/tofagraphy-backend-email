@@ -34,7 +34,7 @@ const correctionMail = asyncHandler(async (req, res) => {
       background-color: #000;
       margin: 0;
       padding: 0;
-      color: rgba(255, 255, 255, 0.9);
+      color: #ffffff; /* Solid white for better visibility */
       text-align: center;
       animation: fadeIn 1.5s ease-in-out;
     }
@@ -68,6 +68,7 @@ const correctionMail = asyncHandler(async (req, res) => {
     p {
       line-height: 1.8;
       font-size: 16px;
+      color: #ffffff; /* Solid white for better visibility */
     }
 
     .info {
@@ -79,7 +80,7 @@ const correctionMail = asyncHandler(async (req, res) => {
 
     .info span {
       font-weight: bold;
-      color: #d4a373;
+      color: #d4a373; /* Highlight color for spans */
     }
 
     a {
@@ -96,7 +97,7 @@ const correctionMail = asyncHandler(async (req, res) => {
     .footer {
       margin-top: 30px;
       font-size: 14px;
-      color: rgba(255, 223, 186, 0.8);
+      color: #ffffff; /* Solid white for better visibility */
     }
 
     .footer a {
@@ -111,7 +112,7 @@ const correctionMail = asyncHandler(async (req, res) => {
 </head>
 <body>
 <div class="container">
-  <img src="https://tofagraphystudio.com/logo.png" alt="Tofagraphy Studio" />
+  <img src="./tofa 2.png" alt="Tofagraphy Studio" />
   <h1>📸 NEW BOOKING REQUEST</h1>
   <p>Hello, You have received a new booking request from <b>${Names}</b></p>
 
